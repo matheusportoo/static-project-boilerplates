@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Title from './components/Title'
+import '../scss/app.scss'
 
-ReactDOM.render(
-  <Title text='React boilerplate 1.0'/>,
-  document.getElementById("app")
-);
+import App from './containers/App'
+
+ReactDOM.render(<App />, document.getElementById("app"));
