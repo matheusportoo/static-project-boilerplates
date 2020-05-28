@@ -1,0 +1,16 @@
+:global {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+    font-family: var(--font-family-main);
+  }
+
+  body {
+    margin: 0;
+  }
+}
